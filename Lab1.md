@@ -15,20 +15,20 @@
 5
 ```
 ```Код
-import math
+from collections import Counter
 
 minimal = 0
 average = 0
 count = int(input())
 numbers = list(map(int, input().split(" ")))
 
-for i in range(len(numbers)):
-    average += numbers[i]
-average = math.floor(average/count)
+average = Counter(numbers).most_common(1)
+average = average[0][0]
 
 for i in numbers:
     minimal += abs(i-average)
 print(minimal)
+
 ```
 
 # 2.	 Нахождение делителей. 
