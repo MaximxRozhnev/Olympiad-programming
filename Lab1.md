@@ -22,23 +22,12 @@ minimal = 0
 average = 0
 count = int(input())
 numbers = list(map(int, input().split(" ")))
+numbers = sorted(numbers)
 
-def summ(arr):
-    summOfArray = 0
-    for i in arr:
-        summOfArray += i
-    return summOfArray
-
-average = Counter(numbers).most_common(1)
-
-if(average[0][1] > 1):
-    average = average[0][0]
-else:
-    average = math.floor(summ(numbers)/count)
-    
+average = numbers[math.floor(count/2)-1]
 for i in numbers:
     minimal += abs(i-average)
-print(minimal)nimal)
+print(minimal)
 
 ```
 
