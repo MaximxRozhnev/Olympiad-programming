@@ -172,6 +172,5 @@ for circle in range(circles):
     answers.append("YES" if len(count) == 1 else "NO")
     
 for i in answers:
-    print(i)  
-    
+    print(i)   
 ```
