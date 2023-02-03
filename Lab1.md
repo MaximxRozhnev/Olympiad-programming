@@ -49,8 +49,6 @@ print(minimal)
 6
 ```
 ```Код
-import math
-
 countOfNumber = int(input())
 numbers = []
 for i in range(countOfNumber):
@@ -97,8 +95,6 @@ YES
 YES
 ```
 ``` Код
-import math
-
 circles = int(input())
 answers = []
 for circle in range(circles):
