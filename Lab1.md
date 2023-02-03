@@ -16,7 +16,6 @@
 ```
 ```Код
 import math
-from collections import Counter
 
 minimal = 0
 average = 0
