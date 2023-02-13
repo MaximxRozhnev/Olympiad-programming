@@ -31,7 +31,7 @@ NO
 NO
 ```
 ``` Код
-# Если a и z могут меняться на в обе стороны
+# Если a и z могут меняться в обе стороны
 a = 'abcdefghijklmnopqrstuvwxyz' # 'a' = chr(97) => -97
 
 for i in range(int(input())):
