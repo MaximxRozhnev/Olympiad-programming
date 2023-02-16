@@ -57,7 +57,7 @@ for i in range(int(input())):
     text = input()
     Flag = True
     for char in range(len(text)//2):
-        res = abs(text[char] - text[-1 - char])
+        res = abs(ord(text[char]) - ord(text[-1 - char]))
         if res != 2 and res != 0:
             Flag = False
     print("YES" if Flag else "NO")
