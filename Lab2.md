@@ -52,13 +52,13 @@ for i in range(int(input())):
 ```
 ``` Код2
 # Если a и z могут меняться только на b и y соответственно
-for i in range(int(input)):
+for i in range(int(input())):
     input()
     text = input()
     Flag = True
     for char in range(len(text)//2):
         res = abs(text[char] - text[-1 - char])
         if res != 2 and res != 0:
-        Flag = False
+            Flag = False
     print("YES" if Flag else "NO")
 ```
