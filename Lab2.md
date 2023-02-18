@@ -210,5 +210,7 @@ if a.count('a') != len(a):
             continue
         else:
             a[i] = chr(ord(a[i])-1)
+else:
+    a[-1] = 'z'
 print(''.join(a))
 ```
